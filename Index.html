@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Scholars & Scoundrels Book Club</title>
-  <link rel="stylesheets" href="css/style.css">
+  <title>Scholars & Scoundrels</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.flipBurger').click(function(){
+        $('.flipBurger').toggleClass('active')
+      })
+    })
+  </script>
 </head>
 <body>
-  <header>
+  <div class="flipBurger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!-- <header>
     <h1>Scholars & Scoundrels Book Club<h1>
     <img src="" alt="S&S BC logo">
     <ul class="main-nav">
@@ -15,7 +28,7 @@
       <li>Vote!</li>
       <li>About</li>
     </ul>
-  </header>
+  </header> -->
 </body>
 <footer></footer>
 </html>
