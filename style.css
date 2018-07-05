@@ -1,16 +1,44 @@
 body
 {
-  margin: 0;
+  width: 100%;
+  margin: auto;
   padding: 0;
   background: #d9d9d9;
 }
 
 .header {
-  background-color: #1e392a;
+  width: 100%;
+  background-color: slategrey;
   color: #eac67a;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  top: 0;
+  position: fixed;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#site-name {
+    float: left;
+    font-family: serif;
+    font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  font-size: .75em;
+}
+
+.main-nav {
+  float: right;
 }
 
 /*
@@ -23,6 +51,7 @@ styling and moving the burger menu
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+
 }
 .flipBurger span
 {
