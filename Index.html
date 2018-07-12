@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Scholars and Scoundrels</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -10,6 +11,13 @@
           $('.flipBurger').toggleClass('active')
         })
       })
+      //burger menu javascript
+      $(document).ready(function(){
+        $('.return-to-top').click(function(){
+          $('html,body').scrollTop(0)
+        })
+      })
+      //site name return to top
     </script>
   </head>
   <body>
@@ -24,9 +32,10 @@
       </div>
       <div class="container">
         <img id="site-logo"></img>
-        <h1 id="site-name">Scholars and Scoundrels<h1>
-        <h2>Book CLub</h2>
-        <ul class="main-nav">
+        <div class="site-name return-to-top">
+          <h1>Scholars and Scoundrels <br>Book Club</h1>
+        </div>
+        <ul class="main-nav hidden">
           <li><a href="#">Login</a></li>
           <li><a href="#">Members</a></li>
           <li><a href="#">About</a></li>
@@ -57,40 +66,7 @@
           No commodo accusata pri, ius esse mollis ea. No qui quod unum torquatos, modo quot probatus ius ea, dolore maiestatis adolescens ea sit. Tempor aliquid ullamcorper cu quo. Ne utinam corpora nec, no aeque civibus recteque has, quot persecuti appellantur usu ne.
           Ei audire inermis complectitur his, mei dico deleniti at, nam deserunt iracundia maiestatis ex. Mel et case error constituam, an vix vero putant probatus. Ad sed tempor tritani persequeris, mea solet option deserunt te. Te mel ancillae salutatus democritum. Ignota repudiare eum an, unum deserunt moderatius an pro.
 
-          Nam id simul latine maiorum, mel ipsum definitionem ut, sed unum tantas primis ad. An iudico melius eum. Nam te omnis movet ludus, vix quem iudicabit dissentiunt no. Vis pericula efficiendi ullamcorper et. Te veniam causae cum, quis alii patrioque mei ad, cum ea assum causae. Ex pro sumo duis mundi, vim amet vero equidem eu. No sumo delicata cum, habeo theophrastus sea id.
-          Quidam erroribus ei mei, mea ne natum constituto. Te sed lucilius principes. Te pro erant audiam lucilius, purto rationibus ut eum. Mei velit civibus id, cum ex utamur deseruisse dissentiunt, vel ea impedit invenire necessitatibus. Integre detraxit ei mei, liber delectus cum ea. Sed dicant inermis hendrerit ei, et est regione voluptaria.
-          Nec populo aeterno ei, dicta nullam noster mel ea, odio aliquam vim et. Vel ne oratio regione, et eam quot saepe accusam. Tota veniam te qui, te vim velit nostrum tractatos. In pri erat tacimates.
-          Adipisci argumentum sea ut. At mel dicat malorum noluisse, deleniti epicurei delectus an sed. Legendos invenire nec ne, per ut mollis ceteros. No vituperata instructior est. Dicit similique liberavisse ut sed, an sed assum dicant. Mei lorem mollis mandamus ad.
-          Mazim inimicus sit ea, vim aeterno legimus periculis ne, vivendo perpetua ad sea. Eum diam mediocrem cu. Vel et summo recusabo sadipscing, et eam sonet congue regione. Has in insolens maluisset, vix no quas assentior. Usu wisi ocurreret ut, eos et convenire iracundia maiestatis.
-          Iudico efficiantur at has, ne sit viris saepe percipit, sit nihil dictas audire ea. Te nostrud recteque constituto ius. Aeque graeci commodo pri in, per at nisl repudiandae. Ex eam harum soluta admodum.
-          Ex reque nominati periculis sed. Te sea delectus theophrastus complectitur, in per fierent percipit elaboraret. Vix eu feugiat partiendo salutatus, mel sonet nihil conclusionemque at. Ne officiis mediocritatem ius, at sea probatus referrentur mediocritatem.
-          Eos te eius sensibus, sit simul maluisset pertinacia ea. At viderer ornatus qui, nam ut alia ubique epicuri, cu usu praesent partiendo. Sea ei integre habemus. Mel id eligendi repudiare consetetur, vim et natum aliquip fabulas, eos sint malorum adipiscing ea. Eu mei omnesque molestiae constituam.
-          No commodo accusata pri, ius esse mollis ea. No qui quod unum torquatos, modo quot probatus ius ea, dolore maiestatis adolescens ea sit. Tempor aliquid ullamcorper cu quo. Ne utinam corpora nec, no aeque civibus recteque has, quot persecuti appellantur usu ne.
-          Ei audire inermis complectitur his, mei dico deleniti at, nam deserunt iracundia maiestatis ex. Mel et case error constituam, an vix vero putant probatus. Ad sed tempor tritani persequeris, mea solet option deserunt te. Te mel ancillae salutatus democritum. Ignota repudiare eum an, unum deserunt moderatius an pro.
-
-          Nam id simul latine maiorum, mel ipsum definitionem ut, sed unum tantas primis ad. An iudico melius eum. Nam te omnis movet ludus, vix quem iudicabit dissentiunt no. Vis pericula efficiendi ullamcorper et. Te veniam causae cum, quis alii patrioque mei ad, cum ea assum causae. Ex pro sumo duis mundi, vim amet vero equidem eu. No sumo delicata cum, habeo theophrastus sea id.
-          Quidam erroribus ei mei, mea ne natum constituto. Te sed lucilius principes. Te pro erant audiam lucilius, purto rationibus ut eum. Mei velit civibus id, cum ex utamur deseruisse dissentiunt, vel ea impedit invenire necessitatibus. Integre detraxit ei mei, liber delectus cum ea. Sed dicant inermis hendrerit ei, et est regione voluptaria.
-          Nec populo aeterno ei, dicta nullam noster mel ea, odio aliquam vim et. Vel ne oratio regione, et eam quot saepe accusam. Tota veniam te qui, te vim velit nostrum tractatos. In pri erat tacimates.
-          Adipisci argumentum sea ut. At mel dicat malorum noluisse, deleniti epicurei delectus an sed. Legendos invenire nec ne, per ut mollis ceteros. No vituperata instructior est. Dicit similique liberavisse ut sed, an sed assum dicant. Mei lorem mollis mandamus ad.
-          Mazim inimicus sit ea, vim aeterno legimus periculis ne, vivendo perpetua ad sea. Eum diam mediocrem cu. Vel et summo recusabo sadipscing, et eam sonet congue regione. Has in insolens maluisset, vix no quas assentior. Usu wisi ocurreret ut, eos et convenire iracundia maiestatis.
-          Iudico efficiantur at has, ne sit viris saepe percipit, sit nihil dictas audire ea. Te nostrud recteque constituto ius. Aeque graeci commodo pri in, per at nisl repudiandae. Ex eam harum soluta admodum.
-          Ex reque nominati periculis sed. Te sea delectus theophrastus complectitur, in per fierent percipit elaboraret. Vix eu feugiat partiendo salutatus, mel sonet nihil conclusionemque at. Ne officiis mediocritatem ius, at sea probatus referrentur mediocritatem.
-          Eos te eius sensibus, sit simul maluisset pertinacia ea. At viderer ornatus qui, nam ut alia ubique epicuri, cu usu praesent partiendo. Sea ei integre habemus. Mel id eligendi repudiare consetetur, vim et natum aliquip fabulas, eos sint malorum adipiscing ea. Eu mei omnesque molestiae constituam.
-          No commodo accusata pri, ius esse mollis ea. No qui quod unum torquatos, modo quot probatus ius ea, dolore maiestatis adolescens ea sit. Tempor aliquid ullamcorper cu quo. Ne utinam corpora nec, no aeque civibus recteque has, quot persecuti appellantur usu ne.
-          Ei audire inermis complectitur his, mei dico deleniti at, nam deserunt iracundia maiestatis ex. Mel et case error constituam, an vix vero putant probatus. Ad sed tempor tritani persequeris, mea solet option deserunt te. Te mel ancillae salutatus democritum. Ignota repudiare eum an, unum deserunt moderatius an pro.
-
-          Nam id simul latine maiorum, mel ipsum definitionem ut, sed unum tantas primis ad. An iudico melius eum. Nam te omnis movet ludus, vix quem iudicabit dissentiunt no. Vis pericula efficiendi ullamcorper et. Te veniam causae cum, quis alii patrioque mei ad, cum ea assum causae. Ex pro sumo duis mundi, vim amet vero equidem eu. No sumo delicata cum, habeo theophrastus sea id.
-          Quidam erroribus ei mei, mea ne natum constituto. Te sed lucilius principes. Te pro erant audiam lucilius, purto rationibus ut eum. Mei velit civibus id, cum ex utamur deseruisse dissentiunt, vel ea impedit invenire necessitatibus. Integre detraxit ei mei, liber delectus cum ea. Sed dicant inermis hendrerit ei, et est regione voluptaria.
-          Nec populo aeterno ei, dicta nullam noster mel ea, odio aliquam vim et. Vel ne oratio regione, et eam quot saepe accusam. Tota veniam te qui, te vim velit nostrum tractatos. In pri erat tacimates.
-          Adipisci argumentum sea ut. At mel dicat malorum noluisse, deleniti epicurei delectus an sed. Legendos invenire nec ne, per ut mollis ceteros. No vituperata instructior est. Dicit similique liberavisse ut sed, an sed assum dicant. Mei lorem mollis mandamus ad.
-          Mazim inimicus sit ea, vim aeterno legimus periculis ne, vivendo perpetua ad sea. Eum diam mediocrem cu. Vel et summo recusabo sadipscing, et eam sonet congue regione. Has in insolens maluisset, vix no quas assentior. Usu wisi ocurreret ut, eos et convenire iracundia maiestatis.
-          Iudico efficiantur at has, ne sit viris saepe percipit, sit nihil dictas audire ea. Te nostrud recteque constituto ius. Aeque graeci commodo pri in, per at nisl repudiandae. Ex eam harum soluta admodum.
-          Ex reque nominati periculis sed. Te sea delectus theophrastus complectitur, in per fierent percipit elaboraret. Vix eu feugiat partiendo salutatus, mel sonet nihil conclusionemque at. Ne officiis mediocritatem ius, at sea probatus referrentur mediocritatem.
-          Eos te eius sensibus, sit simul maluisset pertinacia ea. At viderer ornatus qui, nam ut alia ubique epicuri, cu usu praesent partiendo. Sea ei integre habemus. Mel id eligendi repudiare consetetur, vim et natum aliquip fabulas, eos sint malorum adipiscing ea. Eu mei omnesque molestiae constituam.
-          No commodo accusata pri, ius esse mollis ea. No qui quod unum torquatos, modo quot probatus ius ea, dolore maiestatis adolescens ea sit. Tempor aliquid ullamcorper cu quo. Ne utinam corpora nec, no aeque civibus recteque has, quot persecuti appellantur usu ne.
-          Ei audire inermis complectitur his, mei dico deleniti at, nam deserunt iracundia maiestatis ex. Mel et case error constituam, an vix vero putant probatus. Ad sed tempor tritani persequeris, mea solet option deserunt te. Te mel ancillae salutatus democritum. Ignota repudiare eum an, unum deserunt moderatius an pro.
-
-        </p>
+          </p>
       </section> <!-- end about div -->
 
       <section class="books">
