@@ -4,21 +4,7 @@
     <meta charset="utf-8">
     <title>Scholars and Scoundrels</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.flipBurger').click(function(){
-          $('.flipBurger').toggleClass('active')
-        })
-      })
-      //burger menu javascript
-      $(document).ready(function(){
-        $('.return-to-top').click(function(){
-          $('html,body').scrollTop(0)
-        })
-      })
-      //site name return to top
-    </script>
+
   </head>
   <body>
     <header class="header">
@@ -35,7 +21,7 @@
         <div class="site-name return-to-top">
           <h1>Scholars and Scoundrels <br>Book Club</h1>
         </div>
-        <ul class="main-nav hidden">
+        <ul class="main-nav">
           <li><a href="#">Login</a></li>
           <li><a href="#">Members</a></li>
           <li><a href="#">About</a></li>
@@ -71,11 +57,11 @@
 
       <section class="books">
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><img id="book-one" src="images/book-one.jpg" alt="image of the first book we read"></li>
+          <li><img id="book-two" src="images/book-two.jpg" alt="image of the second book we read"></li>
+          <li><img id="book-three" src="images/book-three.jpg" alt="image of the third book we read"></li>
+          <li><img id="book-four" src="images/book-four.jpg" alt="image of the fourth book we read"></li>
+          <li><img id="book-five" src="images/book-five.jpg" alt="image of the fifth book we read"></li>
         </ul>
       </section> <!-- end books div -->
 
@@ -119,4 +105,30 @@
     </main>
     <footer></footer>
   </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.flipBurger').click(function(){
+        $('.flipBurger').toggleClass('active')
+      })
+    })
+    //burger menu javascript
+    $(document).ready(function(){
+      $('.return-to-top').click(function(){
+        $('html,body').scrollTop(0)
+      })
+    })
+    //site name return to top
+    $(document).ready(function(){
+      $('.flipBurger-container, .main-nav li').click(function(){
+        $('.main-nav').toggleClass('dropped')
+      })
+    })
+/*  $(document).ready(function(){
+      $('.return-to-top').click(function(){
+        $('html,body').scrollTop(0)
+      })
+    })
+*/
+  </script>
 </html>
