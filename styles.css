@@ -2,15 +2,10 @@
 start main css styles
 */
 
-.wrapper {
-  width: 80%;
-}
-
 body
 {
-  width: 100%;
-  margin: auto;
-  padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
   background: #d9d9d9;
 }
 
@@ -20,11 +15,6 @@ body
   color: #eac67a;
   top: 0;
   position: fixed;
-}
-
-.about {
-  width: 80%;
-  margin: 0 auto;
 }
 
 .site-name {
@@ -50,16 +40,8 @@ a {
 }
 
 section {
-  padding-top: 1em;
-  padding-bottom: 2em;
-  width: 80%;
   margin: auto;
-  margin-top: 2em;
   border-bottom: 4px solid slategrey;
-}
-
-.hidden {
-  display: none;
 }
 
 /*
@@ -153,7 +135,6 @@ start of members styles
 */
 .members ul li {
     list-style: none;
-    display: inline;
 }
 
 .members ul li img {
@@ -168,17 +149,13 @@ end of members styles
 start books styles
 */
 
-.books {
-  height: 12em;
-}
-
 .books ul li {
     list-style: none;
-    display: inline;
 }
 
 .books ul li img {
   height: 8em;
+  display: inline-block;
 }
 
 /*
@@ -199,4 +176,14 @@ start of calendar styles
 
 /*
 end of calendar styles
+*/
+
+/*
+start media queries
+*/
+
+@media
+
+/*
+end media queries
 */
