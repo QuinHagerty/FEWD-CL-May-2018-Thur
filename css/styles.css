@@ -1,11 +1,3 @@
-/*
-start main css styles
-*/
-
-.wrapper {
-  width: 80%;
-}
-
 body
 {
   width: 100%;
@@ -61,10 +53,6 @@ section {
 .hidden {
   display: none;
 }
-
-/*
-end main css styles
-*/
 
 /*
 styling and moving the burger menu
