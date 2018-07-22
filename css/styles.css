@@ -214,15 +214,31 @@ end of calendar styles
 */
 
 /*
-start media queries
+start responsive layout
 */
 
-@media (max-width: 768px) {
+ .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+@media (min-width: 768px){
+ .row {
+    flex-direction: row;
+    border-bottom: 8px solid SlateGrey;
+  }
+
+  .login,
+  .members, .about, .books, .messages, .calendar {
+    align-self: flex-start;
+    padding: 1em;
+    border-bottom: none;
+  }
 }
 
 /*
-end media queries
+end responsive layout
 */
 
 /*
