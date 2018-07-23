@@ -165,6 +165,7 @@ start of members styles
 .members ul li img {
   height: 8em;
   display: inline-block;
+  border: 2px solid #eac67a;
 }
 /*
 end of members styles
@@ -195,6 +196,7 @@ start books styles
 .books ul li img {
   height: 8em;
   display: inline-block;
+  border: 2px solid #eac67a;
 }
 
 /*
@@ -207,6 +209,8 @@ start of calendar styles
 
 .calendar img {
   height: 22em;
+  border: 2px solid SlateGrey;
+
 }
 
 /*
@@ -224,17 +228,30 @@ start responsive layout
 }
 
 @media (min-width: 768px){
- .row {
-    flex-direction: row;
-    border-bottom: 8px solid SlateGrey;
+
+  .flipBurger-container {
+    display: none;
   }
 
-  .login,
-  .members, .about, .books, .messages, .calendar {
-    align-self: flex-start;
-    padding: 1em;
-    border-bottom: none;
+  .main-nav {
+      display: block;
   }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .row {
+      flex-direction: row;
+      border-bottom: 8px solid SlateGrey;
+    }
+
+    .login,
+    .members, .about, .books, .messages, .calendar {
+      align-self: flex-start;
+      padding: 1em;
+      border-bottom: none;
+    }
 }
 
 /*
