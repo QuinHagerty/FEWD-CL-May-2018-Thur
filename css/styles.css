@@ -150,6 +150,7 @@ end of burger drop menu
 start of login styles
 */
 
+
 /*
 end of login styles
 */
@@ -157,12 +158,13 @@ end of login styles
 /*
 start of members styles
 */
-.members ul li {
+
+#members ul li {
     list-style: none;
     display: inline;
 }
 
-.members ul li img {
+#members ul li img {
   height: 8em;
   display: inline-block;
   border: 2px solid #eac67a;
@@ -175,7 +177,7 @@ end of members styles
 start of about styles
 */
 
-.about {
+#about {
   width: 80%;
   margin: 0 auto;
 }
@@ -188,12 +190,12 @@ end of about styles
 start books styles
 */
 
-.books ul li {
+#books ul li {
     list-style: none;
     display: inline;
 }
 
-.books ul li img {
+#books ul li img {
   height: 8em;
   display: inline-block;
   border: 2px solid #eac67a;
@@ -204,10 +206,18 @@ end of books styles
 */
 
 /*
+start of messages styles
+*/
+
+/*
+end of messages styles
+*/
+
+/*
 start of calendar styles
 */
 
-.calendar img {
+#calendar img {
   height: 22em;
   border: 2px solid SlateGrey;
 
@@ -246,12 +256,13 @@ start responsive layout
       border-bottom: 8px solid SlateGrey;
     }
 
-    .login,
-    .members, .about, .books, .messages, .calendar {
+    #login,
+    #members, #about, #books, #messages, #calendar {
       align-self: flex-start;
       padding: 1em;
       border-bottom: none;
     }
+
 }
 
 /*
