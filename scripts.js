@@ -9,17 +9,10 @@ $(document).ready(function(){
   //END site name return to top
 
   //START burger menu JS
-  $('.flipBurger').click(function(){
-    $('.flipBurger').toggleClass('active')
-  })
-  //END burger menu JS
-
-  //START burger menu drop down
-  $('.flipBurger-container, .main-nav li').click(function(){
+  $('.flipBurger, .main-nav li').click(function(){
     if (!mql.matches) {
-    $('.main-nav').toggleClass('dropped')
+      $('.flipBurger').toggleClass('active');
+      $('.main-nav').toggleClass('dropped');
     }
   })
-  //END burger menu drop down
-
-  })
+})
